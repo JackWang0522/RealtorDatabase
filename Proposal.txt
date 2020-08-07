@@ -1,0 +1,60 @@
+Real Estate Agent Assistant App
+Name : Zixi Wang
+CS 3A
+
+I¡¯m currently working at a real estate company, many of my coworkers asked me to write a program in order to save their client¡¯s informations and houses relate to them, and they can check or pull up any information needed. There are some apps that have the functionality but it is complicated. My purpose is to write a program which is easy to use and suits their purposes.
+
+As of now I have a few demands from agents in my office.
+
+The app will have these basic functions:
+
+Clients : Under this main function we will have : Add new client, edit client, delete client, search client(search buyer or seller or browsing). (All clients will be saved in a database)
+Each client object will have many attributes in that class, including but not limited to : 
+name, 
+request(Buy or Sell or both), 
+current address, 
+phone number, 
+buying price Limit, 
+buying house bedroom numbers,
+buying house requirements,
+Selling price,
+Selling house(house object),
+Selling commision(percentage).
+
+Listing : This is the function where agent can save their listed houses for sale. We have sub functions : Add New House, All House. Then in the detail page of a house there will be functions such as edit, delete.
+This will be using house object, which including following attributes:
+House address,
+House price,
+Numbers of bedrooms,
+Numbers of bathrooms,
+Area of the house,
+Area of the land,
+Year built,
+Selling by(a client object),
+Commision(percentage),
+Notes(informations of the house, such as parking space or any other features)
+
+Loan : This is another request from agents, almost every client ask about loans when they want to buy a house, and agents had hard time come up with accurate numbers and approval odds based on client¡¯s informations, this function will help to get a accurate as possible estimate as possible.
+This will involve loan provider objects, basic function is a calculator. But according to user¡¯s information provided should reply with details of the loan plan available for the buyer.
+Following information should be provided by user:
+House price,
+Credit score(0 if user doesn¡¯t have social security number),
+Available Cash,
+Monthly income,
+
+From information provided the program will look for a loan provider that will lend money to this client and have the following feedback informations:
+Down payment percent,
+Down payment amount,
+Interest rate,
+Term,
+Monthly payment,
+Closing Cost
+
+For loan provider object:
+Minimum credit score(0 if the provider have loan plan for non social security clients)
+Max Loan amount
+And other member functions to determine interest rates and monthly payment as user pass in house price and their informations, then return interest rate and monthly payment etc.
+
+
+
+	

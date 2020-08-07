@@ -1,0 +1,242 @@
+ess [e] to login, enter [c] to create new agent account.
+>>c
+Enter the username you want to use.
+>>user001
+Enter the password you want to use.
+>>123456
+Password must be at least 8 characters.
+Enter the password you want to use.
+>>12345678
+Enter the password again to confirm.
+>>12345678
+user001
+==saved==
+==============================
+Welcome   new user
+==============================
+You have 0 clients, 0 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>7
+Do this client have a house? Enter [1] if yes, any other number if no.
+>>1
+Enter the house information first
+Creating new house >>>>>>>>>>>>>>>>>>
+Street Address : colorado
+City : pasadena
+State : ca
+Zip Code : 91999
+MLS Number : house001
+Selling Price : $500000
+Bedroom Count : 55
+Bathroom Count : 55
+Stories Count : 5
+Living Area(sqft) : 9000
+Land Area(sqft) : 11111
+new house created
+Now enter the client's information
+Creating new client >>>>>>>>>>>>>>>>>>
+Name : ZixiWang
+Phone # : 6266266666
+Email : zixiwang@gmail.com
+Credit Score : 750
+Available Cash : 5000
+Annual Income : 4000
+new client created
+==saved==You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>1
+Enter client's name
+>>ZixiWang
+1..................................
+====== Client ======
+Name : ZixiWang
+Phone # : 6266266666
+Email : zixiwang@gmail.com
+Credit Score : 750
+Available Cash : $5000
+Annual Income : $4000
+You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>2
+Enter client's name
+>>7027212248
+You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>2
+Enter client's name
+>>6266266666
+1..................................
+====== Client ======
+Name : ZixiWang
+Phone # : 6266266666
+Email : zixiwang@gmail.com
+Credit Score : 750
+Available Cash : $5000
+Annual Income : $4000
+You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>3
+Enter house's address
+>>colorado
+All houses with given address :
+1..................................
+====== House ======
+Street Address : colorado
+City : pasadena
+State : ca
+Zip Code : 91999
+Selling Price : $500000
+Bedroom Count : 55
+Bathroom Count : 55
+Stories Count : 5
+Living Area : 9000 sqft
+Land Area : 11111 sqft
+You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>5
+1..................................
+====== Client ======
+Name : ZixiWang
+Phone # : 6266266666
+Email : zixiwang@gmail.com
+Credit Score : 750
+Available Cash : $5000
+Annual Income : $4000
+You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>6
+1..................................
+====== House ======
+Street Address : colorado
+City : pasadena
+State : ca
+Zip Code : 91999
+Selling Price : $500000
+Bedroom Count : 55
+Bathroom Count : 55
+Stories Count : 5
+Living Area : 9000 sqft
+Land Area : 11111 sqft
+You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>9
+Enter the password you have now
+>>11111111
+Password entered wrong, enter 0 back to previous menu or enter everything else to try again.
+Enter the password you have now
+>>12345678
+Enter the password you want to use.
+>>88888888
+Enter the password again to confirm.
+>>88888888
+==saved==You have 1 clients, 1 houses.
+
+============Menu============
+[1] Find client by name
+[2] Find client by phone number
+[3] Find house by address
+[4] Find house by MLS number
+[5] Display all clients
+[6] Display all houses
+[7] Add a client
+[8] Add a house
+[9] Change password
+[0] Change name
+[911] Exit
+>>911
